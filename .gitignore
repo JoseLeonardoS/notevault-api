@@ -33,25 +33,25 @@ ScaffoldingReadMe.txt
 
 # NuGet Packages
 *.nupkg
-# NuGet Symbol Packages
 *.snupkg
 
-# dotenv environment variables file
+# dotenv
 .env
 
-# Others
-~$*
-*~
-CodeCoverage/
-
-# MSBuild Binary and Structured Log
+# MSBuild
 *.binlog
 
-# MSTest test Results
+# Test results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
-
-# NUnit
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Secrets
+**/appsettings.json
+**/appsettings.*.json
+
+# IDE
+.vs/
+*.user
